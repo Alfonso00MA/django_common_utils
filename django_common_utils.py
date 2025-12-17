@@ -7,8 +7,6 @@ def get_var_from_env_or_settings(var_name_str: str, is_assert_not_none=True):
     Environment variables have priority
     If not, settings
 
-
-    # TODO move to django_common_utils
     """
 
     from django.conf import settings
